@@ -1,0 +1,47 @@
+[
+  {
+    "frage": "Welche dieser Sprachen sind Websprachen?",
+    "antworten": [
+      { "text": "HTML", "korrekt": true },
+      { "text": "CSS", "korrekt": true },
+      { "text": "JavaScript", "korrekt": true },
+      { "text": "Diesel", "korrekt": false }
+    ]
+  },
+  {
+    "frage": "Was trifft auf eine 'Konstante' in JavaScript zu?",
+    "antworten": [
+      { "text": "Wird mit 'let' deklariert", "korrekt": false },
+      { "text": "Ihr Wert kann nach der Zuweisung nicht geändert werden", "korrekt": true },
+      { "text": "Muss bei der Deklaration initialisiert werden", "korrekt": true },
+      { "text": "Kann beliebig oft neu zugewiesen werden", "korrekt": false }
+    ]
+  },
+  {
+    "frage": "Welche HTML-Tags werden für Listen verwendet?",
+    "antworten": [
+      { "text": "<ul>", "korrekt": true },
+      { "text": "<li>", "korrekt": true },
+      { "text": "<list>", "korrekt": false },
+      { "text": "<ol>", "korrekt": true }
+    ]
+  },
+  {
+    "frage": "Was ist der Zweck von CSS?",
+    "antworten": [
+      { "text": "Strukturierung von Datenbanken", "korrekt": false },
+      { "text": "Styling und Layout von Webseiten", "korrekt": true },
+      { "text": "Programmierung von Server-Logik", "korrekt": false },
+      { "text": "Verwaltung von Benutzerrechten", "korrekt": false }
+    ]
+  },
+  {
+    "frage": "Welche Symbole werden in JS für Kommentare genutzt?",
+    "antworten": [
+      { "text": "// für einzeilige Kommentare", "korrekt": true },
+      { "text": "/* */ für mehrzeilige Kommentare", "korrekt": true },
+      { "text": "", "korrekt": false },
+      { "text": "# für einzeilige Kommentare", "korrekt": false }
+    ]
+  }
+]

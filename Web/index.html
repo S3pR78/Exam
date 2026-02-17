@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prüfungsportal Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="setup-container" class="full-screen-center">
+        <div class="hero-card fade-in">
+            <div class="icon-header">🎓</div>
+            <h1>Klausur-Simulator</h1>
+            <p class="subtitle">Professionelle Prüfungssimulation mit Punktabzug-Logik</p>
+            
+            <div class="setup-form">
+                <div class="input-box">
+                    <label>JSON-Fragenkatalog laden</label>
+                    <input type="file" id="json-upload" accept=".json">
+                </div>
+                
+                <div class="input-box">
+                    <label>Zeitlimit (Minuten)</label>
+                    <input type="number" id="timer-input" value="60" min="1">
+                </div>
+                
+                <button id="start-btn" class="main-cta" disabled>Simulation starten</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="quiz-container" class="hidden">
+        <header class="quiz-header">
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+            <div class="header-main">
+                <span id="question-counter">Frage 1 / X</span>
+                <div id="timer-display" class="timer-badge">00:00</div>
+            </div>
+        </header>
+
+        <div class="layout-wrapper">
+            <aside id="sidebar">
+                <button id="toggle-sidebar" title="Navigation umschalten">✕</button>
+                <div class="sidebar-content">
+                    <h3>Fragenliste</h3>
+                    <div id="question-nav"></div>
+                </div>
+            </aside>
+
+            <main id="content-area">
+                <div id="review-banner" class="review-status hidden">✨ Review-Modus aktiv</div>
+                <div class="card question-box">
+                    <h2 id="question-text">Frage lädt...</h2>
+                    <div id="options-container"></div>
+                    
+                    <footer class="question-footer">
+                        <div class="nav-group">
+                            <button id="prev-btn" class="btn-outline">← Zurück</button>
+                            <button id="next-btn" class="btn-outline">Weiter →</button>
+                        </div>
+                        <div class="action-group">
+                            <button id="back-to-results" class="btn-primary hidden">Zur Übersicht</button>
+                            <button id="finish-btn" class="btn-danger">Test abgeben</button>
+                        </div>
+                    </footer>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <div id="result-container" class="full-screen-center hidden">
+        <div class="hero-card fade-in">
+            <h1>Ihr Ergebnis</h1>
+            <div id="score-display"></div>
+            <div id="detailed-results" class="scroll-list"></div>
+            <button class="main-cta" onclick="location.reload()">Neustart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
