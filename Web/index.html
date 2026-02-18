@@ -13,12 +13,20 @@
         <div class="hero-card fade-in">
             <div class="icon-header">🎓</div>
             <h1>Klausur-Simulator</h1>
-            <p class="subtitle">Professionelle Prüfungssimulation mit Punktabzug-Logik</p>
+            <p class="subtitle">Wählen Sie Ihren Modus und starten Sie die Simulation</p>
             
             <div class="setup-form">
                 <div class="input-box">
                     <label>JSON-Fragenkatalog laden</label>
                     <input type="file" id="json-upload" accept=".json">
+                </div>
+
+                <div class="input-box">
+                    <label>Modus wählen</label>
+                    <select id="mode-select">
+                        <option value="exam">Prüfungsmodus (Auswertung am Ende)</option>
+                        <option value="study">Lernmodus (Lösung sofort einsehbar)</option>
+                    </select>
                 </div>
                 
                 <div class="input-box">
@@ -44,7 +52,7 @@
 
         <div class="layout-wrapper">
             <aside id="sidebar">
-                <button id="toggle-sidebar" title="Navigation umschalten">✕</button>
+                <button id="toggle-sidebar">✕</button>
                 <div class="sidebar-content">
                     <h3>Fragenliste</h3>
                     <div id="question-nav"></div>
@@ -52,7 +60,7 @@
             </aside>
 
             <main id="content-area">
-                <div id="review-banner" class="review-status hidden">✨ Review-Modus aktiv</div>
+                <div id="review-banner" class="review-status hidden">✨ Review-Modus / Gelöst</div>
                 <div class="card question-box">
                     <h2 id="question-text">Frage lädt...</h2>
                     <div id="options-container"></div>
@@ -63,6 +71,7 @@
                             <button id="next-btn" class="btn-outline">Weiter →</button>
                         </div>
                         <div class="action-group">
+                            <button id="show-solution-btn" class="btn-primary hidden" style="background-color: #f59e0b;">Lösung anzeigen</button>
                             <button id="back-to-results" class="btn-primary hidden">Zur Übersicht</button>
                             <button id="finish-btn" class="btn-danger">Test abgeben</button>
                         </div>

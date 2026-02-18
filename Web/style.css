@@ -96,3 +96,23 @@ input:focus { border-color: var(--primary); outline: none; }
 .hidden { display: none !important; }
 .fade-in { animation: fadeIn 0.8s ease-out; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+
+
+/* ... (gleiches CSS wie zuvor, plus dieses hier für den Select) ... */
+select {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: white;
+    cursor: pointer;
+}
+select:focus { border-color: var(--primary); outline: none; }
+
+/* Status für manuell gelöste Fragen in der Sidebar */
+.nav-btn.revealed {
+    background: #fef3c7 !important; /* Gelb für "gelöst" */
+    color: #d97706 !important;
+    border-color: #f59e0b !important;
+}

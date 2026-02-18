@@ -1,0 +1,505 @@
+{
+  "vorlesung": "01 - Einführung, Aktuelle Situation, Regulierung I",
+  "fragen": [
+    {
+      "id": 1,
+      "frage": "Welche Institutionen prognostizieren für 2025 eine Fortsetzung der wirtschaftlichen Stagnation in Deutschland?",
+      "antworten": [
+        { "text": "IW Köln", "korrekt": true },
+        { "text": "ifo Institut", "korrekt": true },
+        { "text": "NASA", "korrekt": false },
+        { "text": "Bundesamt für Seeschifffahrt", "korrekt": false }
+      ]
+    },
+    {
+      "id": 2,
+      "frage": "Was sind laut Vorlesung Gründe für die aktuelle Investitionskrise in der Industrie?",
+      "antworten": [
+        { "text": "Hohe Energiekosten", "korrekt": true },
+        { "text": "Unsicherheit über die US-Handelspolitik", "korrekt": true },
+        { "text": "Geopolitische Risiken", "korrekt": true },
+        { "text": "Ein Überangebot an Fachkräften", "korrekt": false }
+      ]
+    },
+    {
+      "id": 3,
+      "frage": "Welche Bereiche fallen unter den Begriff 'Energie' gemäß § 3 Nr. 14 EnWG?",
+      "antworten": [
+        { "text": "Elektrizität", "korrekt": true },
+        { "text": "Erdgas", "korrekt": true },
+        { "text": "Biogas", "korrekt": true },
+        { "text": "Holzkohle für den Grill", "korrekt": false }
+      ]
+    },
+    {
+      "id": 4,
+      "frage": "Welche Merkmale treffen auf Strom als Handelsware zu?",
+      "antworten": [
+        { "text": "Homogenes Gut", "korrekt": true },
+        { "text": "Nur begrenzt speicherbar", "korrekt": true },
+        { "text": "Leitungsgebunden", "korrekt": true },
+        { "text": "Physisch exakt von A nach B steuerbar im vermaschten Netz", "korrekt": false }
+      ]
+    },
+    {
+      "id": 5,
+      "frage": "Was versteht man unter dem 'Fixcharakter' von Elektrizität?",
+      "antworten": [
+        { "text": "Inanspruchnahme und Leistung fallen zeitlich zusammen", "korrekt": true },
+        { "text": "Der Preis ist staatlich fixiert", "korrekt": false },
+        { "text": "Die Spannung ist immer bei 230V fixiert", "korrekt": false },
+        { "text": "Keine nennenswerte Vorratshaltung möglich", "korrekt": true }
+      ]
+    },
+    {
+      "id": 6,
+      "frage": "Welche Bereiche gehören zum 'Klimarecht'?",
+      "antworten": [
+        { "text": "Treibhausgas-Emissionshandelsgesetz (TEHG)", "korrekt": true },
+        { "text": "Brennstoffemissionshandelsgesetz (BEHG)", "korrekt": true },
+        { "text": "Bundes-Klimaschutzgesetz (KSG)", "korrekt": true },
+        { "text": "Straßenverkehrsordnung (StVO)", "korrekt": false }
+      ]
+    },
+    {
+      "id": 7,
+      "frage": "Warum ist die Regulierung von Energienetzen ökonomisch notwendig?",
+      "antworten": [
+        { "text": "Natürliches Monopol", "korrekt": true },
+        { "text": "Hohe Markteintrittsbarrieren (Fixkosten)", "korrekt": true },
+        { "text": "Vermeidung von ineffizienten Parallelstrukturen", "korrekt": true },
+        { "text": "Förderung von Monopolgewinnen", "korrekt": false }
+      ]
+    },
+    {
+      "id": 8,
+      "frage": "Welche Aufgaben hat die Bundesnetzagentur (BNetzA)?",
+      "antworten": [
+        { "text": "Überwachung des Netzzugangs", "korrekt": true },
+        { "text": "Festlegung/Genehmigung von Netzentgelten", "korrekt": true },
+        { "text": "Kontrolle des Wettbewerbs im Erzeugungsmarkt", "korrekt": false },
+        { "text": "Regulierung von Post und Telekommunikation", "korrekt": true }
+      ]
+    },
+    {
+      "id": 9,
+      "frage": "Welche Ebenen gehören zur klassischen Strom-Netztopographie?",
+      "antworten": [
+        { "text": "Höchstspannung (Übertragungsnetz)", "korrekt": true },
+        { "text": "Hochspannung", "korrekt": true },
+        { "text": "Mittelspannung", "korrekt": true },
+        { "text": "Niederspannung", "korrekt": true }
+      ]
+    },
+    {
+      "id": 10,
+      "frage": "Was charakterisiert eine 'Kundenanlage' nach § 3 Nr. 24a EnWG?",
+      "antworten": [
+        { "text": "Räumlich zusammengehörendes Gebiet", "korrekt": true },
+        { "text": "Wettbewerbliche Unbedeutendheit", "korrekt": true },
+        { "text": "Dient der allgemeinen Versorgung", "korrekt": false },
+        { "text": "Jedem diskriminierungsfrei zur Verfügung gestellt", "korrekt": false }
+      ]
+    },
+    {
+      "id": 11,
+      "frage": "Welche Kriterien nannte der EuGH im Urteil C-293/23 zur Definition eines Verteilernetzes?",
+      "antworten": [
+        { "text": "Spannungsebene", "korrekt": true },
+        { "text": "Weiterleitung zum Zweck des Verkaufs", "korrekt": true },
+        { "text": "Anzahl der angeschlossenen Endverbraucher", "korrekt": false },
+        { "text": "Kategorie der Kunden", "korrekt": true }
+      ]
+    },
+    {
+      "id": 12,
+      "frage": "Welche Folgen hat die Einstufung als 'Netz' statt 'Kundenanlage'?",
+      "antworten": [
+        { "text": "Pflicht zur Gewährung von Netzzugang", "korrekt": true },
+        { "text": "Regulierung der Netzentgelte", "korrekt": true },
+        { "text": "Entflechtungspflichten (Unbundling)", "korrekt": true },
+        { "text": "Vollständige Steuerfreiheit", "korrekt": false }
+      ]
+    },
+    {
+      "id": 13,
+      "frage": "Was ist eine 'Direktleitung' nach § 3 Nr. 12 EnWG?",
+      "antworten": [
+        { "text": "Verbindung zwischen Erzeuger und Kunde ohne öffentliches Netz", "korrekt": true },
+        { "text": "Verbindung zwischen zwei Kraftwerken", "korrekt": true },
+        { "text": "Ein einfaches Verlängerungskabel", "korrekt": false },
+        { "text": "Jede Leitung in einem Privathaus", "korrekt": false }
+      ]
+    },
+    {
+      "id": 14,
+      "frage": "Welche Rechtsgrundlagen bilden den Rahmen für die Regulierung?",
+      "antworten": [
+        { "text": "EU-Elektrizitätsbinnenmarkt-Richtlinie", "korrekt": true },
+        { "text": "EU-Gasbinnenmarkt-Richtlinie", "korrekt": true },
+        { "text": "Energiewirtschaftsgesetz (EnWG)", "korrekt": true },
+        { "text": "Bürgerliches Gesetzbuch (BGB)", "korrekt": false }
+      ]
+    },
+    {
+      "id": 15,
+      "frage": "Was sind 'Geschlossene Verteilernetze' (§ 110 EnWG)?",
+      "antworten": [
+        { "text": "Industrie- oder Gewerbegebiete", "korrekt": true },
+        { "text": "Netze mit hohem Eigenverbrauch", "korrekt": true },
+        { "text": "Netze für die allgemeine Haushaltsversorgung", "korrekt": false },
+        { "text": "Teilweise von der Regulierung befreite Netze", "korrekt": true }
+      ]
+    },
+    {
+      "id": 16,
+      "frage": "Welche Institutionen kontrollieren die Einhaltung der Regulierung?",
+      "antworten": [
+        { "text": "Bundesnetzagentur", "korrekt": true },
+        { "text": "Landesregulierungsbehörden", "korrekt": true },
+        { "text": "Europäische Kommission", "korrekt": true },
+        { "text": "Bundeskartellamt (für Missbrauchsaufsicht)", "korrekt": true }
+      ]
+    },
+    {
+      "id": 17,
+      "frage": "Welche Aussage zum EuGH-Urteil C-293/23 ist korrekt?",
+      "antworten": [
+        { "text": "Es verschärft die Anforderungen an Regulierungsfreiheit", "korrekt": true },
+        { "text": "Es bestätigt die deutsche 'Kundenanlage' vollumfänglich", "korrekt": false },
+        { "text": "Es betont den Vorrang des Unionsrechts", "korrekt": true },
+        { "text": "Es betrifft nur den Bereich Gas", "korrekt": false }
+      ]
+    },
+    {
+      "id": 18,
+      "frage": "Was gehört zum Inhalt des Energiewirtschaftsrechts?",
+      "antworten": [
+        { "text": "Netzanschluss", "korrekt": true },
+        { "text": "Netznutzung", "korrekt": true },
+        { "text": "Bilanzkreismanagement", "korrekt": true },
+        { "text": "Arbeitsrechtliche Vorschriften für Monteure", "korrekt": false }
+      ]
+    },
+    {
+      "id": 19,
+      "frage": "Welche Ziele verfolgt das EnWG laut § 1?",
+      "antworten": [
+        { "text": "Sicherheit der Versorgung", "korrekt": true },
+        { "text": "Preisgünstigkeit", "korrekt": true },
+        { "text": "Umweltverträglichkeit", "korrekt": true },
+        { "text": "Verbraucherfreundlichkeit", "korrekt": true }
+      ]
+    },
+    {
+      "id": 20,
+      "frage": "Was bedeutet 'Unbundling' (Entflechtung)?",
+      "antworten": [
+        { "text": "Trennung von Netzbetrieb und Erzeugung/Vertrieb", "korrekt": true },
+        { "text": "Vermeidung von Interessenkonflikten", "korrekt": true },
+        { "text": "Sicherstellung von diskriminierungsfreiem Wettbewerb", "korrekt": true },
+        { "text": "Zusammenführung aller Abteilungen in einem Gebäude", "korrekt": false }
+      ]
+    },
+    {
+      "id": 21,
+      "frage": "Welche Einflüsse haben Energienetze auf den Standort Deutschland?",
+      "antworten": [
+        { "text": "Netzentgelte sind ein Kostenfaktor für die Industrie", "korrekt": true },
+        { "text": "Versorgungssicherheit ist wichtig für Produktion", "korrekt": true },
+        { "text": "Netzausbau ermöglicht Integration erneuerbarer Energien", "korrekt": true },
+        { "text": "Netze haben keinen Einfluss auf die Wirtschaft", "korrekt": false }
+      ]
+    },
+    {
+      "id": 22,
+      "frage": "Welche Akteure agieren auf dem Strommarkt?",
+      "antworten": [
+        { "text": "Übertragungsnetzbetreiber (ÜNB)", "korrekt": true },
+        { "text": "Verteilnetzbetreiber (VNB)", "korrekt": true },
+        { "text": "Lieferanten / Händler", "korrekt": true },
+        { "text": "Messstellenbetreiber", "korrekt": true }
+      ]
+    },
+    {
+      "id": 23,
+      "frage": "Was ist die RGC News App?",
+      "antworten": [
+        { "text": "Ein Informationsmedium für Energie und Klima", "korrekt": true },
+        { "text": "Ein Tool zur Berechnung von Strompreisen", "korrekt": false },
+        { "text": "In der Vorlesung empfohlene Informationsquelle", "korrekt": true },
+        { "text": "Ein Spiel", "korrekt": false }
+      ]
+    },
+    {
+      "id": 24,
+      "frage": "Was versteht man unter 'leitungsgebundener Energieversorgung'?",
+      "antworten": [
+        { "text": "Versorgung über Kabel oder Rohrleitungen", "korrekt": true },
+        { "text": "WLAN-Strom", "korrekt": false },
+        { "text": "Versorgung durch Akkumulatoren im LKW-Transport", "korrekt": false },
+        { "text": "Infrastrukturgebundener Transport", "korrekt": true }
+      ]
+    },
+    {
+      "id": 25,
+      "frage": "Welche Spannungsebene wird üblicherweise für den Ferntransport von Strom genutzt?",
+      "antworten": [
+        { "text": "Höchstspannung (380 kV / 220 kV)", "korrekt": true },
+        { "text": "Niederspannung (0,4 kV)", "korrekt": false },
+        { "text": "Mittelspannung", "korrekt": false },
+        { "text": "Gleichstrom-Ultrahöchstspannung", "korrekt": true }
+      ]
+    },
+    {
+      "id": 26,
+      "frage": "Was ist ein Merkmal für das 'natürliche Monopol' der Netze?",
+      "antworten": [
+        { "text": "Subadditivität der Kostenfunktion", "korrekt": true },
+        { "text": "Ein Anbieter produziert günstiger als mehrere", "korrekt": true },
+        { "text": "Gesetzliches Verbot von Konkurrenznetzen", "korrekt": false },
+        { "text": "Hohe irreversible Kosten (Sunk Costs)", "korrekt": true }
+      ]
+    },
+    {
+      "id": 27,
+      "frage": "Was regelt das Erneuerbare-Energien-Gesetz (EEG) im Kern?",
+      "antworten": [
+        { "text": "Einspeisevorrang für Grünstrom", "korrekt": true },
+        { "text": "Förderung regenerativer Erzeugung", "korrekt": true },
+        { "text": "Regulierung der Gasfernleitung", "korrekt": false },
+        { "text": "Finanzierung über Umlagen oder Haushalt", "korrekt": true }
+      ]
+    },
+    {
+      "id": 28,
+      "frage": "Was ist Sinn und Zweck der 'Anreizregulierung'?",
+      "antworten": [
+        { "text": "Steigerung der Effizienz der Netzbetreiber", "korrekt": true },
+        { "text": "Senkung der Netzentgelte", "korrekt": true },
+        { "text": "Simulierter Wettbewerbsdruck", "korrekt": true },
+        { "text": "Maximierung der Mitarbeiterzahl", "korrekt": false }
+      ]
+    },
+    {
+      "id": 29,
+      "frage": "Welche Arten der Entflechtung gibt es im EnWG?",
+      "antworten": [
+        { "text": "Rechtliche Entflechtung", "korrekt": true },
+        { "text": "Operationelle Entflechtung", "korrekt": true },
+        { "text": "Informatorische Entflechtung", "korrekt": true },
+        { "text": "Buchhalterische Entflechtung", "korrekt": true }
+      ]
+    },
+    {
+      "id": 30,
+      "frage": "Warum ist Strom 'nicht speicherbar'?",
+      "antworten": [
+        { "text": "Physikalisch in großen Mengen schwierig/teuer", "korrekt": true },
+        { "text": "Es muss stets ein Gleichgewicht zwischen Erzeugung und Verbrauch herrschen", "korrekt": true },
+        { "text": "Batterien sind verboten", "korrekt": false },
+        { "text": "Pumpspeicherkraftwerke sind die einzige großtechnische Lösung", "korrekt": true }
+      ]
+    },
+    {
+      "id": 31,
+      "frage": "Was ist das 'Binnemarktpaket'?",
+      "antworten": [
+        { "text": "EU-Gesetzespakete zur Liberalisierung der Märkte", "korrekt": true },
+        { "text": "Ein Paket der Post", "korrekt": false },
+        { "text": "Regelungen für Strom und Gas", "korrekt": true },
+        { "text": "Maßnahmen zur Abschottung nationaler Märkte", "korrekt": false }
+      ]
+    },
+    {
+      "id": 32,
+      "frage": "Welche Konsequenz hat das 'Fixgeschäft' bei Strom für die Haftung?",
+      "antworten": [
+        { "text": "Nachlieferung bei Stromausfall unmöglich", "korrekt": true },
+        { "text": "Schadenersatzansprüche bei Versorgungsunterbrechung möglich", "korrekt": true },
+        { "text": "Strom kann später nachgeliefert werden wie ein Paket", "korrekt": false },
+        { "text": "Besondere Haftungsregeln im EnWG/NAV", "korrekt": true }
+      ]
+    },
+    {
+      "id": 33,
+      "frage": "Was ist ein 'Arealnetz'?",
+      "antworten": [
+        { "text": "Oft synonym für Kundenanlagen oder geschlossene Netze verwendet", "korrekt": true },
+        { "text": "Das Netz der Telekom", "korrekt": false },
+        { "text": "Ein lokales Versorgungsgebiet (z.B. Flughafen, Klinik)", "korrekt": true },
+        { "text": "Ein Netz im Weltraum", "korrekt": false }
+      ]
+    },
+    {
+      "id": 34,
+      "frage": "Was bedeutet 'Diskriminierungsfreiheit' im Energierecht?",
+      "antworten": [
+        { "text": "Gleiche Bedingungen für alle Netznutzer", "korrekt": true },
+        { "text": "Keine Bevorzugung konzerneigener Lieferanten", "korrekt": true },
+        { "text": "Kostenlose Stromabgabe für alle", "korrekt": false },
+        { "text": "Transparente Kriterien für den Netzanschluss", "korrekt": true }
+      ]
+    },
+    {
+      "id": 35,
+      "frage": "Welche Rolle spielt der 'Regulierungsrahmen' für Investitionen?",
+      "antworten": [
+        { "text": "Sichert Kapitalverzinsung für Netzbetreiber", "korrekt": true },
+        { "text": "Gibt Planungssicherheit", "korrekt": true },
+        { "text": "Bestimmt die Höhe der Investitionsbudgets mit", "korrekt": true },
+        { "text": "Verhindert jegliche Investitionen", "korrekt": false }
+      ]
+    },
+    {
+      "id": 36,
+      "frage": "Was ist der Unterschied zwischen ÜNB und VNB?",
+      "antworten": [
+        { "text": "ÜNB betreiben das Autobahn-Netz (Höchstspannung)", "korrekt": true },
+        { "text": "VNB verteilen den Strom in der Region/Stadt", "korrekt": true },
+        { "text": "ÜNB sind für Systemsicherheit verantwortlich", "korrekt": true },
+        { "text": "VNB verkaufen primär den Strom", "korrekt": false }
+      ]
+    },
+    {
+      "id": 37,
+      "frage": "Was ist die 'Anreizregulierung' (ARegV)?",
+      "antworten": [
+        { "text": "Rechtsverordnung zur Festlegung von Erlösobergrenzen", "korrekt": true },
+        { "text": "Ein Gesetz zur Förderung von Elektroautos", "korrekt": false },
+        { "text": "Instrument zur Effizienzkontrolle", "korrekt": true },
+        { "text": "Gilt für Strom- und Gasnetzbetreiber", "korrekt": true }
+      ]
+    },
+    {
+      "id": 38,
+      "frage": "Welche Aussage zum Klimaschutzgesetz (KSG) ist korrekt?",
+      "antworten": [
+        { "text": "Legt verbindliche Klimaziele für Sektoren fest", "korrekt": true },
+        { "text": "Ziel: Klimaneutralität bis 2045", "korrekt": true },
+        { "text": "Wurde nach BVerfG-Urteil verschärft", "korrekt": true },
+        { "text": "Regelt die Preise für Solarmodule", "korrekt": false }
+      ]
+    },
+    {
+      "id": 39,
+      "frage": "Was ist 'Power-to-Gas'?",
+      "antworten": [
+        { "text": "Umwandlung von Strom in Wasserstoff oder Methan", "korrekt": true },
+        { "text": "Sektorenkopplung", "korrekt": true },
+        { "text": "Speichermöglichkeit für erneuerbare Energien", "korrekt": true },
+        { "text": "Verbrennung von Gas zur Stromerzeugung", "korrekt": false }
+      ]
+    },
+    {
+      "id": 40,
+      "frage": "Wer ist nach dem EnWG ein 'Haushaltskunde'?",
+      "antworten": [
+        { "text": "Endverbraucher, die Energie für Eigenverbrauch im Haushalt kaufen", "korrekt": true },
+        { "text": "Kleingewerbe bis 10.000 kWh Eigenverbrauch", "korrekt": true },
+        { "text": "Großindustrielle Abnehmer", "korrekt": false },
+        { "text": "Energiehändler", "korrekt": false }
+      ]
+    },
+    {
+      "id": 41,
+      "frage": "Welche Kriterien sind für die Landesregulierungsbehörde relevant?",
+      "antworten": [
+        { "text": "Weniger als 100.000 Kunden im Netz", "korrekt": true },
+        { "text": "Netz verläuft nur innerhalb eines Bundeslandes", "korrekt": true },
+        { "text": "Betreiber hat sich für Landesbehörde entschieden (Optionsrecht)", "korrekt": true },
+        { "text": "Betreiber ist ein US-Unternehmen", "korrekt": false }
+      ]
+    },
+    {
+      "id": 42,
+      "frage": "Was ist die 'Netzvermengung'?",
+      "antworten": [
+        { "text": "Alle Elektronen mischen sich im Netz", "korrekt": true },
+        { "text": "Kunde bekommt physikalisch nicht den 'Öko-Strom' vom Nachbarn", "korrekt": true },
+        { "text": "Kaufmännisch-bilanzielle Zuweisung ist entscheidend", "korrekt": true },
+        { "text": "Stromleitungen verheddern sich physisch", "korrekt": false }
+      ]
+    },
+    {
+      "id": 43,
+      "frage": "Was regelt das TEHG?",
+      "antworten": [
+        { "text": "Emissionshandel für Kraftwerke und Industrie", "korrekt": true },
+        { "text": "Europäisches System (EU-ETS)", "korrekt": true },
+        { "text": "Zertifikate für CO2-Ausstoß", "korrekt": true },
+        { "text": "Pfand auf Plastikflaschen", "korrekt": false }
+      ]
+    },
+    {
+      "id": 44,
+      "frage": "Was ist Sinn der 'Systemverantwortung' (§ 13 EnWG)?",
+      "antworten": [
+        { "text": "Aufrechterhaltung der Netzstabilität", "korrekt": true },
+        { "text": "Eingriffsbefugnisse für Netzbetreiber (Redispatch)", "korrekt": true },
+        { "text": "Vermeidung von Blackouts", "korrekt": true },
+        { "text": "Werbung für Stromprodukte", "korrekt": false }
+      ]
+    },
+    {
+      "id": 45,
+      "frage": "Welche Netze sind teilweise von der Regulierung befreit?",
+      "antworten": [
+        { "text": "Geschlossene Verteilernetze (§ 110)", "korrekt": true },
+        { "text": "Kundenanlagen (§ 3 Nr. 24a/b)", "korrekt": true },
+        { "text": "Übertragungsnetze", "korrekt": false },
+        { "text": "Gasfernleitungen", "korrekt": false }
+      ]
+    },
+    {
+      "id": 46,
+      "frage": "Welche Faktoren gefährden laut ifo-Institut die Konjunktur?",
+      "antworten": [
+        { "text": "Schwache Industriekonjunktur", "korrekt": true },
+        { "text": "Strukturelle Probleme", "korrekt": true },
+        { "text": "Fehlende Impulse aus dem Ausland", "korrekt": true },
+        { "text": "Zu hohe Sparquote der Regierung", "korrekt": false }
+      ]
+    },
+    {
+      "id": 47,
+      "frage": "Was bedeutet 'diskriminierungsfreier Netzzugang'?",
+      "antworten": [
+        { "text": "Jeder Lieferant darf das Netz zu gleichen Entgelten nutzen", "korrekt": true },
+        { "text": "Netzbetreiber darf eigene Kunden nicht bevorzugen", "korrekt": true },
+        { "text": "Anschlussberechtigung für jeden Erzeuger", "korrekt": true },
+        { "text": "Kostenloses Netz für alle", "korrekt": false }
+      ]
+    },
+    {
+      "id": 48,
+      "frage": "Was ist das 'Messstellenbetriebsgesetz' (MsbG)?",
+      "antworten": [
+        { "text": "Regelt Einbau von Smart Metern", "korrekt": true },
+        { "text": "Teil der Digitalisierung der Energiewende", "korrekt": true },
+        { "text": "Regelt Ablesung von Zählern", "korrekt": true },
+        { "text": "Regelt die Maße von Strommasten", "korrekt": false }
+      ]
+    },
+    {
+      "id": 49,
+      "frage": "Welche Rolle spielt Wasserstoff im EnWG?",
+      "antworten": [
+        { "text": "Eigene Regelungen für Wasserstoffnetze eingeführt", "korrekt": true },
+        { "text": "Aufbau eines Wasserstoff-Kernnetzes", "korrekt": true },
+        { "text": "Teilweise analoge Anwendung von Gas-Vorschriften", "korrekt": true },
+        { "text": "Wasserstoff ist im EnWG verboten", "korrekt": false }
+      ]
+    },
+    {
+      "id": 50,
+      "frage": "Was ist das Ziel des 'Green Deal' der EU?",
+      "antworten": [
+        { "text": "Klimaneutralität bis 2050", "korrekt": true },
+        { "text": "Umbau der Wirtschaft auf Nachhaltigkeit", "korrekt": true },
+        { "text": "Entkoppelung von Wirtschaftswachstum und Ressourcenverbrauch", "korrekt": true },
+        { "text": "Abschaffung aller Industriebetriebe", "korrekt": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "frage": "Welche Anspruchsgrundlage kommt bei überhöhtem BKZ in Betracht?",
+    "antworten": [
+      { "text": "§ 134 BGB", "korrekt": true },
+      { "text": "§ 30 EnWG iVm § 17 EnWG", "korrekt": true },
+      { "text": "§ 985 BGB", "korrekt": false },
+      { "text": "§ 433 BGB", "korrekt": false }
+    ]
+  },
+  {
+    "id": 2,
+    "frage": "Was ist die Rechtsfolge eines Verstoßes gegen ein gesetzliches Verbot nach § 134 BGB?",
+    "antworten": [
+      { "text": "Nichtigkeit des Rechtsgeschäfts", "korrekt": true },
+      { "text": "Automatische Vertragsverlängerung", "korrekt": false },
+      { "text": "Schadensersatzpflicht ohne weiteres", "korrekt": false },
+      { "text": "Teilnichtigkeit möglich", "korrekt": true }
+    ]
+  },
+  {
+    "id": 3,
+    "frage": "Was verlangt § 17 Abs. 1 EnWG beim Netzanschluss?",
+    "antworten": [
+      { "text": "Angemessene Bedingungen", "korrekt": true },
+      { "text": "Diskriminierungsfreiheit", "korrekt": true },
+      { "text": "Transparenz", "korrekt": true },
+      { "text": "Gewinnmaximierung des Netzbetreibers", "korrekt": false }
+    ]
+  },
+  {
+    "id": 4,
+    "frage": "Wann liegt eine Diskriminierung vor?",
+    "antworten": [
+      { "text": "Ungleichbehandlung wesentlich Gleicher ohne sachlichen Grund", "korrekt": true },
+      { "text": "Gleichbehandlung wesentlich Ungleicher ohne sachlichen Grund", "korrekt": true },
+      { "text": "Unterschiedliche Preise bei unterschiedlichen Leistungen", "korrekt": false },
+      { "text": "Veröffentlichung von Entgelten im Internet", "korrekt": false }
+    ]
+  },
+  {
+    "id": 5,
+    "frage": "Was ist ein Baukostenzuschuss (BKZ)?",
+    "antworten": [
+      { "text": "Kostenbeteiligung für Netzverstärkung", "korrekt": true },
+      { "text": "Strafzahlung bei Mehrverbrauch", "korrekt": false },
+      { "text": "Kann leistungsabhängig berechnet werden", "korrekt": true },
+      { "text": "Immer pauschal 40 €/kW", "korrekt": false }
+    ]
+  },
+  {
+    "id": 6,
+    "frage": "Was verbietet § 30 EnWG?",
+    "antworten": [
+      { "text": "Missbrauch der Marktstellung", "korrekt": true },
+      { "text": "Verstoß gegen §§ 17 ff. EnWG", "korrekt": true },
+      { "text": "Netzausbau", "korrekt": false },
+      { "text": "Vertragsabschlüsse", "korrekt": false }
+    ]
+  },
+  {
+    "id": 7,
+    "frage": "Was regelt § 20 EnWG?",
+    "antworten": [
+      { "text": "Diskriminierungsfreien Netzzugang", "korrekt": true },
+      { "text": "Veröffentlichungspflicht von Entgelten", "korrekt": true },
+      { "text": "Musterverträge", "korrekt": true },
+      { "text": "Förderung von PV-Anlagen", "korrekt": false }
+    ]
+  },
+  {
+    "id": 8,
+    "frage": "Was ist ein Lieferantenrahmenvertrag (LRV)?",
+    "antworten": [
+      { "text": "Netznutzungsvertrag ohne Bezug auf einzelne Entnahmestellen", "korrekt": true },
+      { "text": "Vermittelt Zugang zum gesamten Netz", "korrekt": true },
+      { "text": "Ist nur für Haushaltskunden", "korrekt": false },
+      { "text": "Wird mit dem ÜNB abgeschlossen", "korrekt": false }
+    ]
+  },
+  {
+    "id": 9,
+    "frage": "Was bewirkt der Netznutzungsvertrag?",
+    "antworten": [
+      { "text": "Recht zur Nutzung des vorgelagerten Netzes", "korrekt": true },
+      { "text": "Zugang zum gesamten Elektrizitätsversorgungsnetz", "korrekt": true },
+      { "text": "Eigentumsübertragung am Netz", "korrekt": false },
+      { "text": "Stromlieferung selbst", "korrekt": false }
+    ]
+  },
+  {
+    "id": 10,
+    "frage": "Was ist ein Strom-Bilanzkreis?",
+    "antworten": [
+      { "text": "Virtuelles Energiemengenkonto", "korrekt": true },
+      { "text": "Verbindung zwischen Handelswelt und physischer Welt", "korrekt": true },
+      { "text": "Physischer Speicher", "korrekt": false },
+      { "text": "Ein Transformator", "korrekt": false }
+    ]
+  },
+  {
+    "id": 11,
+    "frage": "Welche Pflicht hat der Bilanzkreisverantwortliche (BKV)?",
+    "antworten": [
+      { "text": "Ausgleich von Einspeisung und Entnahme je Viertelstunde", "korrekt": true },
+      { "text": "Benennung gegenüber dem ÜNB", "korrekt": true },
+      { "text": "Betrieb des Netzes", "korrekt": false },
+      { "text": "Festlegung der Strompreise", "korrekt": false }
+    ]
+  },
+  {
+    "id": 12,
+    "frage": "Welche Struktur kann ein Bilanzkreis haben?",
+    "antworten": [
+      { "text": "Mindestens eine Einspeise- und eine Entnahmestelle", "korrekt": true },
+      { "text": "Unterbilanzkreise möglich", "korrekt": true },
+      { "text": "Ohne Entnahmestelle", "korrekt": false },
+      { "text": "Nur physisch existent", "korrekt": false }
+    ]
+  },
+  {
+    "id": 13,
+    "frage": "Was sind Marktlokationen?",
+    "antworten": [
+      { "text": "Zuordnungspunkt von Einspeise- oder Entnahmestellen", "korrekt": true },
+      { "text": "Jedem Bilanzkreis zugeordnet", "korrekt": true },
+      { "text": "Physischer Strommarkt", "korrekt": false },
+      { "text": "Messgeräte", "korrekt": false }
+    ]
+  },
+  {
+    "id": 14,
+    "frage": "Wer ist für die Bilanzierung zuständig?",
+    "antworten": [
+      { "text": "Die 4 ÜNB in ihren Regelzonen", "korrekt": true },
+      { "text": "Jeweils innerhalb der eigenen Regelzone", "korrekt": true },
+      { "text": "Die Bundesländer", "korrekt": false },
+      { "text": "Die Gemeinden", "korrekt": false }
+    ]
+  },
+  {
+    "id": 15,
+    "frage": "Wie erfolgen Stromlieferungen zwischen Bilanzkreisen?",
+    "antworten": [
+      { "text": "Per Fahrplanlieferung", "korrekt": true },
+      { "text": "Viertelstundenscharf", "korrekt": true },
+      { "text": "Per Jahrespauschale", "korrekt": false },
+      { "text": "Automatisch ohne Meldung", "korrekt": false }
+    ]
+  },
+  {
+    "id": 16,
+    "frage": "Bis wann müssen Day-Ahead-Fahrpläne gemeldet werden?",
+    "antworten": [
+      { "text": "Vortag 14:30 Uhr", "korrekt": true },
+      { "text": "An den ÜNB", "korrekt": true },
+      { "text": "Nach Monatsende", "korrekt": false },
+      { "text": "Eine Woche vorher", "korrekt": false }
+    ]
+  },
+  {
+    "id": 17,
+    "frage": "Was sind Intra-Day-Fahrpläne?",
+    "antworten": [
+      { "text": "Änderung am Liefertag mit 15-Minuten-Vorlauf", "korrekt": true },
+      { "text": "Eher unüblich", "korrekt": true },
+      { "text": "Nur am Jahresende möglich", "korrekt": false },
+      { "text": "Automatische Korrektur", "korrekt": false }
+    ]
+  },
+  {
+    "id": 18,
+    "frage": "Was sind Day-After-Fahrpläne?",
+    "antworten": [
+      { "text": "Korrektur am Folgetag bis 16 Uhr", "korrekt": true },
+      { "text": "Nur innerhalb derselben Regelzone", "korrekt": true },
+      { "text": "Neue Lieferung für den Folgetag", "korrekt": false },
+      { "text": "Bundesweite Änderung möglich", "korrekt": false }
+    ]
+  },
+  {
+    "id": 19,
+    "frage": "Was ist Residualstromlieferung?",
+    "antworten": [
+      { "text": "Ausgleich nicht durch Fahrpläne gedeckter Mengen", "korrekt": true },
+      { "text": "Ergänzende Lieferung im Bilanzkreis", "korrekt": true },
+      { "text": "Lieferung von Braunkohle", "korrekt": false },
+      { "text": "Kostenlose Ersatzenergie", "korrekt": false }
+    ]
+  },
+  {
+    "id": 20,
+    "frage": "Welche Grundfrage stellt jede Anspruchsprüfung?",
+    "antworten": [
+      { "text": "Wer will was von wem woraus?", "korrekt": true },
+      { "text": "Wie hoch ist der Streitwert?", "korrekt": false },
+      { "text": "Welche Behörde ist zuständig?", "korrekt": false },
+      { "text": "Wie lange dauert das Verfahren?", "korrekt": false }
+    ]
+  }
+]

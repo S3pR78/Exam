@@ -1,21 +1,24 @@
 /**
- * SIMULATOR LOGIK - FINAL VERSION
+ * SIMULATOR LOGIK - MIT LERN- & PRÜFUNGSMODUS
  */
 
 let questions = [];
 let userAnswers = {}; 
+let revealedQuestions = []; // Speichert IDs der Fragen, bei denen die Lösung angezeigt wurde
 let currentIdx = 0;
 let timerInterval;
 let timeLeft;
 let isFinished = false;
+let quizMode = 'exam'; // 'exam' oder 'study'
 
-// DOM Elemente
 const startBtn = document.getElementById('start-btn');
 const optionsContainer = document.getElementById('options-container');
 const sidebar = document.getElementById('sidebar');
 const toggleBtn = document.getElementById('toggle-sidebar');
+const showSolutionBtn = document.getElementById('show-solution-btn');
+const reviewBanner = document.getElementById('review-banner');
 
-// 1. JSON-VERARBEITUNG
+// JSON Upload
 document.getElementById('json-upload').addEventListener('change', (e) => {
     const reader = new FileReader();
     reader.onload = (event) => {
@@ -27,14 +30,15 @@ document.getElementById('json-upload').addEventListener('change', (e) => {
     reader.readAsText(e.target.files[0]);
 });
 
-// 2. SIDEBAR TOGGLE
+// Sidebar Toggle
 toggleBtn.onclick = () => {
     sidebar.classList.toggle('collapsed');
     toggleBtn.textContent = sidebar.classList.contains('collapsed') ? '☰' : '✕';
 };
 
-// 3. START & NAVIGATION
+// Quiz Start
 startBtn.onclick = () => {
+    quizMode = document.getElementById('mode-select').value;
     document.getElementById('setup-container').classList.add('hidden');
     document.getElementById('quiz-container').classList.remove('hidden');
     
@@ -56,10 +60,23 @@ startBtn.onclick = () => {
 function showQuestion(idx) {
     currentIdx = idx;
     const q = questions[idx];
+    const isRevealed = revealedQuestions.includes(idx) || isFinished;
+    
     document.getElementById('question-text').textContent = q.frage;
     document.getElementById('question-counter').textContent = `Frage ${idx + 1} / ${questions.length}`;
     document.getElementById('progress-bar').style.width = `${((idx + 1) / questions.length) * 100}%`;
     
+    // Lernmodus-Button Logik
+    if (quizMode === 'study' && !isRevealed) {
+        showSolutionBtn.classList.remove('hidden');
+    } else {
+        showSolutionBtn.classList.add('hidden');
+    }
+
+    // Banner anzeigen wenn gelöst
+    if (isRevealed) reviewBanner.classList.remove('hidden');
+    else reviewBanner.classList.add('hidden');
+
     optionsContainer.innerHTML = '';
     q.antworten.forEach((ans, i) => {
         const isChecked = userAnswers[idx]?.includes(i);
@@ -67,11 +84,11 @@ function showQuestion(idx) {
         div.className = 'option-item fade-in';
         
         div.innerHTML = `
-            <input type="checkbox" id="opt-${i}" ${isChecked ? 'checked' : ''} ${isFinished ? 'disabled' : ''}>
+            <input type="checkbox" id="opt-${i}" ${isChecked ? 'checked' : ''} ${isRevealed ? 'disabled' : ''}>
             <label for="opt-${i}">${ans.text}</label>
         `;
 
-        if (!isFinished) {
+        if (!isRevealed) {
             div.onclick = (e) => {
                 if(e.target.tagName !== 'INPUT') {
                     const cb = div.querySelector('input');
@@ -80,6 +97,7 @@ function showQuestion(idx) {
                 saveAnswer(idx);
             };
         } else {
+            // Farben anzeigen (entweder weil Test vorbei oder im Lernmodus "Lösung anzeigen" geklickt wurde)
             if (isChecked && ans.korrekt) div.classList.add('correct-marked');
             if (isChecked && !ans.korrekt) div.classList.add('incorrect-marked');
             if (!isChecked && ans.korrekt) div.classList.add('missing-correct');
@@ -98,39 +116,43 @@ function saveAnswer(qIdx) {
     document.getElementById(`nav-btn-${qIdx}`).classList.toggle('answered', checks.length > 0);
 }
 
-// 4. PUNKTESYSTEM (Entscheidungs-Logik)
+// LÖSUNG ANZEIGEN (Lernmodus)
+showSolutionBtn.onclick = () => {
+        revealedQuestions.push(currentIdx);
+        document.getElementById(`nav-btn-${currentIdx}`).classList.add('revealed');
+        showQuestion(currentIdx);
+    
+};
+
+// PUNKTESYSTEM
 function calculatePoints() {
     let totalScore = 0;
-    let maxPossible = 0;
+    let maxPossible = questions.length * 4;
 
     const details = questions.map((q, idx) => {
+        // Falls Lösung angezeigt wurde -> 0 Punkte
+        if (revealedQuestions.includes(idx)) {
+            return { points: 0, title: q.frage, revealed: true };
+        }
+
         let qPoints = 0;
         const userPicks = userAnswers[idx] || [];
-
         q.antworten.forEach((ans, i) => {
             const hasChecked = userPicks.includes(i);
-            
-            // Regel: Jede richtige Übereinstimmung (Haken oder kein Haken) zählt
-            if (ans.korrekt) {
-                hasChecked ? qPoints += 1 : qPoints -= 1;
-            } else {
-                !hasChecked ? qPoints += 1 : qPoints -= 1;
-            }
+            if (ans.korrekt) hasChecked ? qPoints += 1 : qPoints -= 1;
+            else !hasChecked ? qPoints += 1 : qPoints -= 1;
         });
 
-        // Limitierung pro Frage (0 bis 4)
         qPoints = Math.max(0, Math.min(4, qPoints));
         totalScore += qPoints;
-        maxPossible += 4;
-        return { points: qPoints };
+        return { points: qPoints, title: q.frage, revealed: false };
     });
 
     return { totalScore, maxPossible, details };
 }
 
-// 5. TEST BEENDEN & REVIEW
 function finishQuiz(forced = false) {
-    if (!forced && !confirm("Simulation beenden und abgeben?")) return;
+    if (!forced && !confirm("Prüfung abgeben?")) return;
     isFinished = true;
     clearInterval(timerInterval);
     
@@ -141,22 +163,22 @@ function finishQuiz(forced = false) {
     const perc = Math.round((res.totalScore / res.maxPossible) * 100);
     document.getElementById('score-display').innerHTML = `
         <div style="font-size: 5rem; color: var(--primary); font-weight: 800;">${perc}%</div>
-        <p style="font-size: 1.2rem; color: #4b5563;">${res.totalScore} von ${res.maxPossible} Punkten</p>
+        <p style="font-size: 1.2rem; color: #4b5563;">${res.totalScore} von ${res.maxPossible} Gesamt-Punkten</p>
     `;
     
     const list = document.getElementById('detailed-results');
     list.innerHTML = res.details.map((d, i) => `
-        <div class="option-item" style="justify-content: space-between;">
-            <span>Frage ${i+1}: <strong>${d.points} / 4 Pkt.</strong></span>
-            <button class="btn-primary" onclick="reviewQuestion(${i})">Details</button>
+        <div class="option-item" style="justify-content: space-between; border-left: 5px solid ${d.revealed ? '#f59e0b' : '#2563eb'}">
+            <span>Frage ${i+1}: <strong>${d.points} / 4 Pkt.</strong> ${d.revealed ? '(Gelöst)' : ''}</span>
+            <button class="btn-primary" onclick="reviewQuestion(${i})">Review</button>
         </div>
     `).join('');
 }
 
+// Navigation Review & UI Controls
 window.reviewQuestion = (idx) => {
     document.getElementById('result-container').classList.add('hidden');
     document.getElementById('quiz-container').classList.remove('hidden');
-    document.getElementById('review-banner').classList.remove('hidden');
     document.getElementById('back-to-results').classList.remove('hidden');
     document.getElementById('finish-btn').classList.add('hidden');
     showQuestion(idx);

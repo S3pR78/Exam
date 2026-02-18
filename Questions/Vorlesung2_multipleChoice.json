@@ -1,0 +1,502 @@
+[
+    {
+      "id": 1,
+      "frage": "Welche Ansprüche hat ein Anschlussbegehrender gemäß § 17 EnWG?",
+      "antworten": [
+        { "text": "Anspruch auf Netzanschluss", "korrekt": true },
+        { "text": "Anspruch auf kostenlose Energie", "korrekt": false },
+        { "text": "Anspruch auf technische Prüfung durch den Netzbetreiber", "korrekt": true },
+        { "text": "Anspruch auf einen exklusiven Transformator", "korrekt": false }
+      ]
+    },
+    {
+      "id": 2,
+      "frage": "Was ist der Unterschied zwischen Netzanschluss und Netznutzung?",
+      "antworten": [
+        { "text": "Netzanschluss ist die physische Verbindung (Hardware)", "korrekt": true },
+        { "text": "Netznutzung ist die Durchleitung von Energie (Software/Dienstleistung)", "korrekt": true },
+        { "text": "Beide Begriffe bedeuten rechtlich exakt dasselbe", "korrekt": false },
+        { "text": "Netznutzung setzt einen Netzanschluss voraus", "korrekt": true }
+      ]
+    },
+    {
+      "id": 3,
+      "frage": "Welche Verträge werden im Rahmen des Netzanschlusses geschlossen?",
+      "antworten": [
+        { "text": "Netzanschlussvertrag", "korrekt": true },
+        { "text": "Anschlussnutzungsverhältnis", "korrekt": true },
+        { "text": "Energieliefervertrag", "korrekt": false },
+        { "text": "Kaufvertrag für das Grundstück", "korrekt": false }
+      ]
+    },
+    {
+      "id": 4,
+      "frage": "Wann darf ein Netzbetreiber einen Netzanschluss verweigern?",
+      "antworten": [
+        { "text": "Aus wirtschaftlicher Unzumutbarkeit nach § 17 Abs. 2 EnWG", "korrekt": true },
+        { "text": "Aus kapazitätsbedingten Gründen (Netzengpass)", "korrekt": true },
+        { "text": "Wenn ihm der Kunde persönlich nicht sympathisch ist", "korrekt": false },
+        { "text": "Wenn die Kapazitätserweiterung nicht zumutbar ist", "korrekt": true }
+      ]
+    },
+    {
+      "id": 5,
+      "frage": "Was regelt die Niederspannungsanschlussverordnung (NAV)?",
+      "antworten": [
+        { "text": "Anschlussbedingungen für Haushaltskunden", "korrekt": true },
+        { "text": "Anschluss von Hochspannungsleitungen", "korrekt": false },
+        { "text": "Standardisierte Bedingungen für Massenkunden", "korrekt": true },
+        { "text": "Haftung bei Stromausfällen im Niederspannungsnetz", "korrekt": true }
+      ]
+    },
+    {
+      "id": 6,
+      "frage": "Welche Bestandteile bilden das Netzentgelt?",
+      "antworten": [
+        { "text": "Leistungspreis", "korrekt": true },
+        { "text": "Arbeitspreis", "korrekt": true },
+        { "text": "Grundpreis", "korrekt": true },
+        { "text": "CO2-Abgabe", "korrekt": false }
+      ]
+    },
+    {
+      "id": 7,
+      "frage": "Welche Umlagen werden zusätzlich zu den Netzentgelten erhoben?",
+      "antworten": [
+        { "text": "KWKG-Umlage", "korrekt": true },
+        { "text": "§ 19 StromNEV-Umlage", "korrekt": true },
+        { "text": "Offshore-Netzumlage", "korrekt": true },
+        { "text": "Abwasserumlage", "korrekt": false }
+      ]
+    },
+    {
+      "id": 8,
+      "frage": "Was ist das Ziel des Bilanzkreissystems?",
+      "antworten": [
+        { "text": "Verknüpfung der physischen Welt mit der Handelswelt", "korrekt": true },
+        { "text": "Sicherstellung der 50Hz Netzfrequenz durch Ausgeglichenheit", "korrekt": true },
+        { "text": "Abrechnung von Energieabweichungen", "korrekt": true },
+        { "text": "Festlegung der Benzinpreise", "korrekt": false }
+      ]
+    },
+    {
+      "id": 9,
+      "frage": "Wer ist für den Ausgleich eines Bilanzkreises verantwortlich?",
+      "antworten": [
+        { "text": "Der Bilanzkreisverantwortliche (BKV)", "korrekt": true },
+        { "text": "Der Endkunde", "korrekt": false },
+        { "text": "Der Bundeskanzler", "korrekt": false },
+        { "text": "Der Übertragungsnetzbetreiber (ÜNB) als Kontrolleur", "korrekt": true }
+      ]
+    },
+    {
+      "id": 10,
+      "frage": "In welchem zeitlichen Intervall müssen Bilanzkreise ausgeglichen sein?",
+      "antworten": [
+        { "text": "Jede Viertelstunde (15 Minuten)", "korrekt": true },
+        { "text": "Jede Stunde", "korrekt": false },
+        { "text": "Einmal am Tag", "korrekt": false },
+        { "text": "Jede Sekunde", "korrekt": false }
+      ]
+    },
+    {
+      "id": 11,
+      "frage": "Was versteht man unter 'Ausgleichsenergie'?",
+      "antworten": [
+        { "text": "Energie, die der ÜNB einsetzt, um Differenzen auszugleichen", "korrekt": true },
+        { "text": "Energie, die der BKV zur Deckung seiner Abweichung bezahlen muss", "korrekt": true },
+        { "text": "Kostenlose Reserveenergie", "korrekt": false },
+        { "text": "Solarenergie zur Mittagszeit", "korrekt": false }
+      ]
+    },
+    {
+      "id": 12,
+      "frage": "Welche gesetzliche Grundlage regelt den Zugang zu Elektrizitätsversorgungsnetzen?",
+      "antworten": [
+        { "text": "§ 20 EnWG", "korrekt": true },
+        { "text": "Stromnetzzugangsverordnung (StromNZV)", "korrekt": true },
+        { "text": "Gewerbeordnung", "korrekt": false },
+        { "text": "Straßenverkehrsgesetz", "korrekt": false }
+      ]
+    },
+    {
+      "id": 13,
+      "frage": "Welche Aufgaben hat ein Übertragungsnetzbetreiber (ÜNB) im Bilanzkreis?",
+      "antworten": [
+        { "text": "Führen der Bilanzkreise", "korrekt": true },
+        { "text": "Berechnung der Ausgleichsenergie", "korrekt": true },
+        { "text": "Verkauf von Küchengeräten", "korrekt": false },
+        { "text": "Abrechnung mit dem BKV", "korrekt": true }
+      ]
+    },
+    {
+      "id": 14,
+      "frage": "Was ist eine 'Marktlokation' (MaLo)?",
+      "antworten": [
+        { "text": "Ort, an dem Energie erzeugt oder verbraucht wird", "korrekt": true },
+        { "text": "Die Adresse des Stromanbieters", "korrekt": false },
+        { "text": "Ein Punkt im Netz, dem ein Bilanzkreis zugeordnet ist", "korrekt": true },
+        { "text": "Ein Marktplatz in der Innenstadt", "korrekt": false }
+      ]
+    },
+    {
+      "id": 15,
+      "frage": "Welche Vergünstigungen gibt es bei Netzentgelten für die Industrie?",
+      "antworten": [
+        { "text": "Individuelle Netzentgelte nach § 19 Abs. 2 StromNEV", "korrekt": true },
+        { "text": "Vollständige Befreiung für alle Firmen", "korrekt": false },
+        { "text": "Singulär genutzte Betriebsmittel", "korrekt": true },
+        { "text": "Atypische Netznutzung", "korrekt": true }
+      ]
+    },
+    {
+      "id": 16,
+      "frage": "Was bedeutet 'atypische Netznutzung'?",
+      "antworten": [
+        { "text": "Verbrauch weicht signifikant von der Jahreshöchstlast des Netzes ab", "korrekt": true },
+        { "text": "Der Kunde nutzt Strom nur nachts", "korrekt": false },
+        { "text": "Führt zu reduzierten Netzentgelten", "korrekt": true },
+        { "text": "Kunde nutzt keinen Strom", "korrekt": false }
+      ]
+    },
+    {
+      "id": 17,
+      "frage": "Welche Rollen kann ein Energieversorgungsunternehmen (EVU) einnehmen?",
+      "antworten": [
+        { "text": "Lieferant", "korrekt": true },
+        { "text": "Bilanzkreisverantwortlicher", "korrekt": true },
+        { "text": "Messstellenbetreiber", "korrekt": true },
+        { "text": "Regulierungsbehörde", "korrekt": false }
+      ]
+    },
+    {
+      "id": 18,
+      "frage": "Was ist ein 'Fahrplan' im Stromhandel?",
+      "antworten": [
+        { "text": "Mitteilung über die geplante Strommenge pro Viertelstunde", "korrekt": true },
+        { "text": "Busfahrplan für Mitarbeiter", "korrekt": false },
+        { "text": "Wird dem ÜNB am Vortag gemeldet", "korrekt": true },
+        { "text": "Dient der Abstimmung zwischen Bilanzkreisen", "korrekt": true }
+      ]
+    },
+    {
+      "id": 19,
+      "frage": "Was regelt § 18 EnWG?",
+      "antworten": [
+        { "text": "Allgemeine Bedingungen für den Netzanschluss", "korrekt": true },
+        { "text": "Veröffentlichungspflichten für Netzbetreiber", "korrekt": true },
+        { "text": "Preisgestaltung für Gasgrills", "korrekt": false },
+        { "text": "Regelung für Niederspannung und Niederdruck", "korrekt": true }
+      ]
+    },
+    {
+      "id": 20,
+      "frage": "Was versteht man unter 'Diskriminierungsverbot' im Netzzugang?",
+      "antworten": [
+        { "text": "Gleiche Preise für gleiche Leistung", "korrekt": true },
+        { "text": "Keine Bevorzugung des eigenen Vertriebs", "korrekt": true },
+        { "text": "Informationen müssen allen gleichzeitig vorliegen", "korrekt": true },
+        { "text": "Kostenlose Nutzung für Vereine", "korrekt": false }
+      ]
+    },
+    {
+      "id": 21,
+      "frage": "Welche Daten sind für die Bilanzierung wichtig?",
+      "antworten": [
+        { "text": "Zählerwerte (Ist-Werte)", "korrekt": true },
+        { "text": "Fahrplanwerte (Soll-Werte)", "korrekt": true },
+        { "text": "Wettervorhersage für PV-Erzeugung", "korrekt": true },
+        { "text": "Lieblingsfarbe des Sachbearbeiters", "korrekt": false }
+      ]
+    },
+    {
+      "id": 22,
+      "frage": "Was ist ein 'Sub-Bilanzkreis'?",
+      "antworten": [
+        { "text": "Unterstruktur innerhalb eines Hauptbilanzkreises", "korrekt": true },
+        { "text": "Ein Bilanzkreis für U-Boote", "korrekt": false },
+        { "text": "Dient der feineren Zuordnung von Mengen", "korrekt": true },
+        { "text": "Ein geheimer Bilanzkreis", "korrekt": false }
+      ]
+    },
+    {
+      "id": 23,
+      "frage": "Welche Konsequenz hat ein 'Blackout' für die Bilanzierung?",
+      "antworten": [
+        { "text": "Störung des Gleichgewichts", "korrekt": true },
+        { "text": "Haftungsfragen nach NAV/EnWG", "korrekt": true },
+        { "text": "Systemverantwortung des ÜNB greift", "korrekt": true },
+        { "text": "Bilanzkreise werden gelöscht", "korrekt": false }
+      ]
+    },
+    {
+      "id": 24,
+      "frage": "Was ist die Konzessionsabgabe?",
+      "antworten": [
+        { "text": "Entgelt an Kommunen für die Nutzung öffentlicher Wege", "korrekt": true },
+        { "text": "Steuer auf Strom", "korrekt": false },
+        { "text": "Bestandteil des Strompreises", "korrekt": true },
+        { "text": "Spende an den Netzbetreiber", "korrekt": false }
+      ]
+    },
+    {
+      "id": 25,
+      "frage": "Was ist der 'Redispatch'?",
+      "antworten": [
+        { "text": "Eingriff in die Erzeugungsleistung zur Vermeidung von Netzengpässen", "korrekt": true },
+        { "text": "Ein neues Computerprogramm", "korrekt": false },
+        { "text": "Kosten werden über Netzentgelte umgelegt", "korrekt": true },
+        { "text": "Maßnahme der ÜNB zur Systemsicherheit", "korrekt": true }
+      ]
+    },
+    {
+      "id": 26,
+      "frage": "Was regelt die StromNEV?",
+      "antworten": [
+        { "text": "Methoden zur Ermittlung der Netzentgelte", "korrekt": true },
+        { "text": "Preise für Ökostrom-Zertifikate", "korrekt": false },
+        { "text": "Kostenprüfung durch die Regulierungsbehörde", "korrekt": true },
+        { "text": "Zulässigkeit von Rabatten", "korrekt": true }
+      ]
+    },
+    {
+      "id": 27,
+      "frage": "Wer schließt den Netznutzungsvertrag bei einem 'Lieferantenrahmenmodell'?",
+      "antworten": [
+        { "text": "Lieferant und Netzbetreiber", "korrekt": true },
+        { "text": "Endkunde und Lieferant", "korrekt": false },
+        { "text": "Netzbetreiber und BNetzA", "korrekt": false },
+        { "text": "ÜNB und VNB", "korrekt": false }
+      ]
+    },
+    {
+      "id": 28,
+      "frage": "Welche Kosten darf ein Netzbetreiber im Netzentgelt ansetzen?",
+      "antworten": [
+        { "text": "Betriebskosten des Netzes", "korrekt": true },
+        { "text": "Abschreibungen auf Anlagen", "korrekt": true },
+        { "text": "Kalkulatorische Eigenkapitalverzinsung", "korrekt": true },
+        { "text": "Kosten für Firmenfeiern", "korrekt": false }
+      ]
+    },
+    {
+      "id": 29,
+      "frage": "Was ist ein 'Einspeisemanagement'?",
+      "antworten": [
+        { "text": "Abregelung von EE-Anlagen bei Netzüberlastung", "korrekt": true },
+        { "text": "Verkauf von Solarstrom", "korrekt": false },
+        { "text": "Teil der Systemverantwortung", "korrekt": true },
+        { "text": "Bau von neuen Leitungen", "korrekt": false }
+      ]
+    },
+    {
+      "id": 30,
+      "frage": "Was ist die Funktion des Bilanzkreisverantwortlichen (BKV)?",
+      "antworten": [
+        { "text": "Ansprechpartner für den ÜNB", "korrekt": true },
+        { "text": "Wirtschaftliche Verantwortung für Abweichungen", "korrekt": true },
+        { "text": "Technischer Betrieb der Leitungen", "korrekt": false },
+        { "text": "Meldung von Fahrplänen", "korrekt": true }
+      ]
+    },
+    {
+      "id": 31,
+      "frage": "Was bedeutet 'postalisches' Netzentgelt?",
+      "antworten": [
+        { "text": "Entfernung zwischen Erzeuger und Kunde spielt keine Rolle", "korrekt": true },
+        { "text": "Bezahlung per Brief", "korrekt": false },
+        { "text": "Entgelt ist innerhalb eines Netzgebiets pro Ebene gleich", "korrekt": true },
+        { "text": "Netzbetreiber schickt die Rechnung per Post", "korrekt": false }
+      ]
+    },
+    {
+      "id": 32,
+      "frage": "Was ist eine 'Messlokation' (MeLo)?",
+      "antworten": [
+        { "text": "Der physische Ort des Zählers", "korrekt": true },
+        { "text": "Wo Daten technisch erfasst werden", "korrekt": true },
+        { "text": "Ein Labor für Physik", "korrekt": false },
+        { "text": "Ein fiktiver Rechenpunkt", "korrekt": false }
+      ]
+    },
+    {
+      "id": 33,
+      "frage": "Welche Frist gilt für Fahrplanmeldungen beim ÜNB?",
+      "antworten": [
+        { "text": "Vortag bis 14:30 Uhr", "korrekt": true },
+        { "text": "Viertelstundenvorlauf für Änderungen", "korrekt": true },
+        { "text": "Eine Woche im Voraus", "korrekt": false },
+        { "text": "Nach Ablauf des Monats", "korrekt": false }
+      ]
+    },
+    {
+      "id": 34,
+      "frage": "Was regelt § 24 EnWG?",
+      "antworten": [
+        { "text": "Verordnungsermächtigung für Entgelte und Zugang", "korrekt": true },
+        { "text": "Preise für Erdbeereis", "korrekt": false },
+        { "text": "Grundlage für StromNEV und StromNZV", "korrekt": true },
+        { "text": "Verbot von Kernkraft", "korrekt": false }
+      ]
+    },
+    {
+      "id": 35,
+      "frage": "Welche Kosten sind 'nicht beeinflussbare Kostenanteile' in der Regulierung?",
+      "antworten": [
+        { "text": "Gewerbesteuer", "korrekt": true },
+        { "text": "Konzessionsabgaben", "korrekt": true },
+        { "text": "Kosten für vorgelagerte Netzebene", "korrekt": true },
+        { "text": "Marketingkosten", "korrekt": false }
+      ]
+    },
+    {
+      "id": 36,
+      "frage": "Was ist eine 'Viertelstundenmessung' (RLM)?",
+      "antworten": [
+        { "text": "Registrierende Leistungsmessung", "korrekt": true },
+        { "text": "Standard für Industriekunden", "korrekt": true },
+        { "text": "Ablesung einmal im Jahr", "korrekt": false },
+        { "text": "Basis für die exakte Bilanzierung", "korrekt": true }
+      ]
+    },
+    {
+      "id": 37,
+      "frage": "Was ist ein 'Standardlastprofil' (SLP)?",
+      "antworten": [
+        { "text": "Schätzung des Verbrauchs für Kleinkunden", "korrekt": true },
+        { "text": "Exakte Messung jeder Sekunde", "korrekt": false },
+        { "text": "Wird für Haushalte ohne Smart Meter genutzt", "korrekt": true },
+        { "text": "Statistisches Mittelwertmodell", "korrekt": true }
+      ]
+    },
+    {
+      "id": 38,
+      "frage": "Welche Bedeutung hat die 50 Hertz Frequenz?",
+      "antworten": [
+        { "text": "Indikator für Gleichgewicht von Erzeugung und Verbrauch", "korrekt": true },
+        { "text": "Sinkt bei Überlastung des Netzes", "korrekt": true },
+        { "text": "Steigt bei zu viel Einspeisung", "korrekt": true },
+        { "text": "Ist nur in Amerika relevant", "korrekt": false }
+      ]
+    },
+    {
+      "id": 39,
+      "frage": "Was ist 'Ausgleichsenergie' (REBAP)?",
+      "antworten": [
+        { "text": "Einheitlicher Preis für Bilanzkreisabweichungen", "korrekt": true },
+        { "text": "Wird vom ÜNB veröffentlicht", "korrekt": true },
+        { "text": "Ist immer bei 0 Euro", "korrekt": false },
+        { "text": "Dient als finanzieller Anreiz zur Treue", "korrekt": true }
+      ]
+    },
+    {
+      "id": 40,
+      "frage": "Was bedeutet 'diskriminierungsfreier' Netzzugang?",
+      "antworten": [
+        { "text": "Keine sachlich ungerechtfertigte Ungleichbehandlung", "korrekt": true },
+        { "text": "Transparentes Verfahren", "korrekt": true },
+        { "text": "Bevorzugung von Verwandten des Chefs", "korrekt": false },
+        { "text": "Gleichbehandlung von Wettbewerbern", "korrekt": true }
+      ]
+    },
+    {
+      "id": 41,
+      "frage": "Was regelt die NAV zur Haftung (§ 18)?",
+      "antworten": [
+        { "text": "Haftung bei Sachschäden bis 5.000 Euro", "korrekt": true },
+        { "text": "Haftung bei Personenschäden unbegrenzt", "korrekt": true },
+        { "text": "Keine Haftung des Netzbetreibers", "korrekt": false },
+        { "text": "Haftung nur bei Vorsatz und grober Fahrlässigkeit bei Vermögensschäden", "korrekt": true }
+      ]
+    },
+    {
+      "id": 42,
+      "frage": "Was ist ein 'vorgelagertes Netz'?",
+      "antworten": [
+        { "text": "Die nächsthöhere Spannungsebene", "korrekt": true },
+        { "text": "Ein Netz im Ausland", "korrekt": false },
+        { "text": "VNB zahlt Entgelte an ÜNB", "korrekt": true },
+        { "text": "Liefert die Energie in das lokale Netz", "korrekt": true }
+      ]
+    },
+    {
+      "id": 23,
+      "frage": "Was ist 'Eigenverbrauch'?",
+      "antworten": [
+        { "text": "Verbrauch von selbst erzeugtem Strom", "korrekt": true },
+        { "text": "Hinter dem Netzanschlusspunkt", "korrekt": true },
+        { "text": "Spart Netzentgelte", "korrekt": true },
+        { "text": "Ist verboten", "korrekt": false }
+      ]
+    },
+    {
+      "id": 44,
+      "frage": "Was sind 'Netzverluste'?",
+      "antworten": [
+        { "text": "Physikalische Verluste beim Transport (Wärme)", "korrekt": true },
+        { "text": "Müssen vom Netzbetreiber am Markt beschafft werden", "korrekt": true },
+        { "text": "Kosten fließen in Netzentgelte ein", "korrekt": true },
+        { "text": "Diebstahl von Kabeln", "korrekt": false }
+      ]
+    },
+    {
+      "id": 45,
+      "frage": "Was regelt § 111a EnWG?",
+      "antworten": [
+        { "text": "Verbraucherbeschwerden", "korrekt": true },
+        { "text": "Schlichtungsverfahren", "korrekt": true },
+        { "text": "Strafrecht", "korrekt": false },
+        { "text": "Bau von Windrädern", "korrekt": false }
+      ]
+    },
+    {
+      "id": 46,
+      "frage": "Was ist ein 'Kombinationsvertrag'?",
+      "antworten": [
+        { "text": "Kunde schließt Vertrag mit Lieferant, der Netznutzung beinhaltet", "korrekt": true },
+        { "text": "Zusammenfassung von Strom und Wasser", "korrekt": false },
+        { "text": "All-Inclusive Modell", "korrekt": true },
+        { "text": "Standard für Haushaltskunden", "korrekt": true }
+      ]
+    },
+    {
+      "id": 47,
+      "frage": "Was bedeutet 'Kapazitätsengpass' im Netz?",
+      "antworten": [
+        { "text": "Leitungen können nicht mehr Strom transportieren", "korrekt": true },
+        { "text": "Transformator ist überlastet", "korrekt": true },
+        { "text": "Es gibt zu viele Kundenberater", "korrekt": false },
+        { "text": "Grund für Verweigerung von Anschluss/Nutzung", "korrekt": true }
+      ]
+    },
+    {
+      "id": 48,
+      "frage": "Welche Kostenbestandteile des Strompreises sind staatlich veranlasst?",
+      "antworten": [
+        { "text": "Stromsteuer", "korrekt": true },
+        { "text": "Mehrwertsteuer", "korrekt": true },
+        { "text": "Umlagen (KWKG, § 19)", "korrekt": true },
+        { "text": "Beschaffungskosten", "korrekt": false }
+      ]
+    },
+    {
+      "id": 49,
+      "frage": "Was ist die Funktion des Netzbetreibers?",
+      "antworten": [
+        { "text": "Gewährleistung eines sicheren Betriebs", "korrekt": true },
+        { "text": "Wartung und Ausbau der Leitungen", "korrekt": true },
+        { "text": "Handel mit Aktien", "korrekt": false },
+        { "text": "Diskriminierungsfreier Zugang für Dritte", "korrekt": true }
+      ]
+    },
+    {
+      "id": 50,
+      "frage": "Was bedeutet 'Systemstabilität'?",
+      "antworten": [
+        { "text": "Frequenz und Spannung bleiben in Normbereichen", "korrekt": true },
+        { "text": "Keine großflächigen Ausfälle", "korrekt": true },
+        { "text": "Gleichgewicht von Erzeugung und Verbrauch", "korrekt": true },
+        { "text": "Ein stabiler Bürostuhl für den Disponenten", "korrekt": false }
+      ]
+    }
+]
