@@ -1,6 +1,4 @@
-{
-  "vorlesung": "01 - Einführung, Aktuelle Situation, Regulierung I",
-  "fragen": [
+[
     {
       "id": 1,
       "frage": "Welche Institutionen prognostizieren für 2025 eine Fortsetzung der wirtschaftlichen Stagnation in Deutschland?",
@@ -501,5 +499,4 @@
         { "text": "Abschaffung aller Industriebetriebe", "korrekt": false }
       ]
     }
-  ]
-}
+]

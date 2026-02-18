@@ -1,6 +1,4 @@
-{
-  "pruefung": "Energie- und Klimarecht - Vorlesung 1",
-  "fragen": [
+[
     {
       "id": 1,
       "frage": "Welches Gesetz bildet die zentrale nationale Umsetzung der Energieregulierung in Deutschland?",
@@ -502,4 +500,3 @@
       ]
     }
   ]
-}
